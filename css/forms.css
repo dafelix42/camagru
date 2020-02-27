@@ -1,0 +1,11 @@
+form {
+    font-family: 'Russo one', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}

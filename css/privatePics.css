@@ -1,0 +1,23 @@
+form {
+    font-family: 'Russo one', sans-serif;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.field {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.shareImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

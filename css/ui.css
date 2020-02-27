@@ -1,0 +1,105 @@
+main {
+    display: flex;
+    flex-direction: row;
+    min-width: 600px;
+    justify-content: space-between;
+}
+
+.columnLeft .columnRight {
+    /* position: relative; */
+    width: 50%;
+    padding: 1%;
+    /* min-width: 500px; */
+}
+
+#video {
+    display: block;
+    width: 50%;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+#canvas {
+    display: none;
+}
+
+#davfelix #chat #moustache{
+    /* position: absolute; */
+    /* top: 0; */
+    /* min-width: 200px; */
+    /* width: auto; */
+    display: none;
+}
+
+.masks-container {
+    display: flex;
+    flex-direction: row;
+    min-width: 250px;
+    max-width: 500px;
+    justify-content: space-between;
+}
+
+.mask {
+    width: 32.65%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(240, 170, 110);
+    border-radius: 5px;
+}
+
+#filterAboveCam
+{
+	display: none;
+	position: absolute;
+	max-width: 500px;
+	height: 375px;
+}
+
+#filterAboveSnap
+{
+	display: none;
+	position: absolute;
+	max-width: 500px;
+	height: 375px;
+}
+
+#results {
+    width: 510px;
+    min-height: 385px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(240, 170, 110);
+    border-radius: 5px;
+}
+
+video {
+    width: 510px;
+    height: 385px;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: rgb(240, 170, 110);
+    border-radius: 5px; */
+}
+
+.myPics img{
+    padding: 1px;
+}
+
+.imageOwner {
+    width: 100px;
+    height: 75px;
+    position: relative;
+    display: inline-block;
+}
+
+.imageOwner .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.imageOwner:hover .img-top {
+    display: inline;
+}

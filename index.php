@@ -1,0 +1,9 @@
+<?php
+if(!isset($_SESSION))
+{
+	session_start();
+}
+include_once("./header.php");
+include_once("./gallery.php");
+include_once("./footer.php");
+?>

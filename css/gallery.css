@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+}
+/*
+.main_box {
+    display: flex;
+    justify-content: center;
+}
+*/
+.galleryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.imagePublic {
+    width: 320px;
+    min-width: auto;
+    margin: 5px;
+    
+}

@@ -1,0 +1,11 @@
+body {
+    font-family: 'Russo one', sans-serif;
+}
+
+.nav {
+    background-color:rgb(240, 170, 110);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
